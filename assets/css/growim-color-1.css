@@ -1,0 +1,15 @@
+:root {
+  --growim-base: #F29F5C;
+  --growim-base-rgb: toRGB(#F29F5C);
+  --growim-secondary: #6461FC;
+  --growim-secondary-rgb: toRGB(#6461FC);
+  --growim-primary: #F26B01;
+  --growim-primary-rgb: toRGB(#F26B01);
+}
+
+.sec-title__tagline {
+  background: linear-gradient(90deg, var(--growim-base, #F29F5C) 0%, var(--growim-secondary, #6461FC) 100%);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+/*# sourceMappingURL=growim-color-1.css.map */
